@@ -15,4 +15,14 @@ body{
     background-color: red;
     width: 75%;
     height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; 
+}
+
+.ele{
+    background-color: rgb(39, 7, 167);
+    font-size:  160px;
+    margin-bottom: 40px;
 }
