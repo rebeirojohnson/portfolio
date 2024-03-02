@@ -46,3 +46,20 @@ body{
 
 /* About Me */
 
+/* Service */
+
+.service-box-grid{
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    /* gap: 50px; */
+    align-items: center;
+    text-align: center;
+    background-color: yellow;
+}
+
+.service-card{
+    width: 250px;
+    aspect-ratio: 1;
+    background-color: aqua;
+    margin: 40px auto;
+}
