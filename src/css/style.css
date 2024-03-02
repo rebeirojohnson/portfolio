@@ -68,4 +68,17 @@ body{
 
 .education-content{
     background-color: wheat;
+    list-style: none;
+    margin-bottom: 5px;
+    width: 70%;
+}
+
+.education-content.selected{
+    background-color: rgb(83, 173, 225);
+}
+
+.course-title{
+    font-size: 20px;
+    padding: 10px 20px;
+    font-weight:500;
 }
