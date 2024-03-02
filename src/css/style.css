@@ -86,7 +86,7 @@ body{
 }
 
 .additonal-info{
-    display: none;
+    display: block;
 }
 
 .additonal-info.selected{
