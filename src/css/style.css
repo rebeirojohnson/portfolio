@@ -19,6 +19,7 @@ body{
     overflow-x: hidden;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none; 
+    margin-left: 20px;
 }
 
 /* Title */
@@ -69,8 +70,9 @@ body{
 .education-content{
     background-color: wheat;
     list-style: none;
-    margin-bottom: 5px;
-    width: 70%;
+    margin-bottom: 10px;
+    width: 80%;
+    margin-left: 8%;
 }
 
 .education-content.selected{
@@ -78,7 +80,23 @@ body{
 }
 
 .course-title{
-    font-size: 20px;
+    font-size: 25px;
     padding: 10px 20px;
     font-weight:500;
 }
+
+.additonal-info{
+    display: none;
+}
+
+.additonal-info.selected{
+    display: block;
+    background-color: #ffff00;
+    padding: 25px 20px;
+    font-size: 18px;
+}
+
+.ed-items{
+    margin-bottom: 5px
+}
+
