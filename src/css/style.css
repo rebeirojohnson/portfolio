@@ -21,8 +21,13 @@ body{
     scrollbar-width: none; 
 }
 
-.ele{
-    background-color: rgb(39, 7, 167);
-    font-size:  160px;
-    margin-bottom: 40px;
+.intro-container{
+    background-color: aqua;
+    height: 100vh;
+}
+
+.name-container{
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 50px;
+    font-weight: 600;
 }
