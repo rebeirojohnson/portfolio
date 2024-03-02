@@ -100,3 +100,23 @@ body{
     margin-bottom: 5px
 }
 
+/* work */
+
+.work-content-item{
+    background-color: rgb(101, 195, 43);
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+.company-name{
+    font-size: 4ex;
+    font-weight: 600;
+}
+.job-duration{
+    position: absolute;
+    background-color: purple;
+    z-index: 9;
+    right: 0%;
+    top: 0%;
+}
