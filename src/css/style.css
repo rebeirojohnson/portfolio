@@ -120,3 +120,15 @@ body{
     right: 0%;
     top: 0%;
 }
+
+@media (max-width:450px){
+
+    .sidebar{
+        display: none;
+    }
+    
+    .main-content{
+        width: 100vw;
+    }
+
+}
