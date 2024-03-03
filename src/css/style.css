@@ -173,6 +173,24 @@ ul{
     top: 0%;
 }
 
+/* Contact */
+
+.contact-icon-container{
+    background-color: violet;
+
+}
+
+.contact-form-container{
+    background-color: springgreen;
+}
+
+.contact-item{
+    display: flex;
+}
+
+.contact-item-icon{
+    width: 10%;
+}
 
 
 @media (max-width:450px){
