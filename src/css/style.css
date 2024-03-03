@@ -189,7 +189,17 @@ ul{
 }
 
 .contact-item-icon{
-    width: 10%;
+    width: 15%;
+    padding: 30px;
+}
+
+.content-item-content,a{
+    text-decoration: none;
+    color: aqua;
+    align-items: center;
+    position: relative;
+    top: 40%;
+    padding-left: 10px;
 }
 
 
