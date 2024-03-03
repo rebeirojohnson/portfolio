@@ -188,9 +188,16 @@ ul{
     display: flex;
 }
 
-.contact-item-icon{
+.contact-item-icon-container{
     width: 15%;
     padding: 30px;
+    position: relative;
+    background-color: #27338b;
+
+}
+
+.contact-item-icon{
+    width: 100%;
 }
 
 .content-item-content,a{
