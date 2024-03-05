@@ -175,6 +175,13 @@ ul{
 
 /* Contact */
 
+.contact-data-container{
+
+    display: flex;
+
+
+}
+
 .contact-icon-container{
     background-color: violet;
 
@@ -182,6 +189,27 @@ ul{
 
 .contact-form-container{
     background-color: springgreen;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input{
+    background-color: rgb(216, 216, 216);
+    border: 0px;
+    padding: 25px 20px;
+    margin: 10px;
+    font-size: 3ex;
+    color: grey;
+}
+
+.form-input:focus{
+    border: 0px;
+    outline: none;
+}
+
+.form-btn{
+    background-color: #3345cd;
+    color: white    ;
 }
 
 .contact-item{
@@ -189,7 +217,7 @@ ul{
 }
 
 .contact-item-icon-container{
-    width: 15%;
+    width: 10%;
     padding: 30px;
     position: relative;
     background-color: #27338b;
@@ -239,6 +267,12 @@ ul{
         width: 75%;
     }
 
+    .contact-data-container{
+
+        display: block;
+    
+    
+    }
 
 
 }
