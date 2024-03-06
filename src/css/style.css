@@ -255,6 +255,35 @@ ul{
     font-size: 3ex;
 }
 
+/* Skills */
+
+.skills-data-container{
+    display: grid;
+    grid-template-columns: repeat(2,40%);
+    gap: 5%;
+    margin: 10%;
+
+    
+}
+
+.skill-item{
+    background-color: rgb(0, 191, 255)
+}
+
+.skill-percentage-container{
+    background-color: aliceblue;
+    display: flex;
+}
+
+.skill-percentage-bar{
+    background-color: black;
+    height: 5px;
+}
+
+.skill-percentage-value{
+    position: fixed;
+   top: -10%;
+}
 
 @media (max-width:450px){
 

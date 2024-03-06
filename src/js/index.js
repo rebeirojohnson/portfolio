@@ -23,11 +23,11 @@ function toggleAdditionalInfo(clickedElement) {
     toggleIcon.src = (listItem.classList.contains('selected')) ? 'src/img/icons8-minus-32.png' : 'src/img/icons8-plus-24.svg';
 }
 
-// document.addEventListener("DOMContentLoaded", function() {
-// var yourElement = document.getElementById("education-container");
+document.addEventListener("DOMContentLoaded", function() {
+var yourElement = document.getElementById("skills-container");
 
-// // Scroll to the element with different behaviors
-// yourElement.scrollIntoView({ behavior: "auto" });
-// // Uncomment the line below to try "smooth" behavior
-// // yourElement.scrollIntoView({ behavior: "smooth" });
-// });
+// Scroll to the element with different behaviors
+yourElement.scrollIntoView({ behavior: "auto" });
+// Uncomment the line below to try "smooth" behavior
+// yourElement.scrollIntoView({ behavior: "smooth" });
+});
