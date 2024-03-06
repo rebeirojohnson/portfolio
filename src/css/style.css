@@ -103,7 +103,7 @@ ul{
 .service-card{
     width: 250px;
     aspect-ratio: 1;
-    background-color: aqua;
+    background-color: rgb(60, 86, 86);
     margin: 40px auto;
 }
 
@@ -287,6 +287,15 @@ ul{
         display: block;
     
     
+    }
+
+    .service-box-grid{
+        grid-template-columns: repeat(1,100%);
+
+    }
+
+    .service-card{
+        width: 80%;
     }
 
 
