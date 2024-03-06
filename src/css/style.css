@@ -124,6 +124,14 @@ ul{
 .course-title-container{
     background-color: violet;
     width: 100%;
+    display: inline-flex;
+}
+
+.toogle-icon-container{
+    background-color: #0dff00;
+    width: 10%;
+    text-align: center;
+    padding: 1.5% 0px;
 }
 
 .course-title{
@@ -135,7 +143,7 @@ ul{
 }
 
 .additonal-info{
-    display: block;
+    display: none;
 }
 
 .additonal-info.selected{
@@ -175,16 +183,21 @@ ul{
 
 /* Contact */
 
+.contact-container{
+    padding: 6c0px 0px;
+}
+
 .contact-data-container{
 
     display: flex;
-
-
+    padding: 50px;
+    
+    
 }
 
 .contact-icon-container{
     background-color: violet;
-
+    
 }
 
 .contact-form-container{
@@ -211,6 +224,8 @@ ul{
     background-color: #3345cd;
     color: white    ;
 }
+
+
 
 .contact-item{
     display: flex;

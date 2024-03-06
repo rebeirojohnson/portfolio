@@ -9,13 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet">
-        <script src="src/js/index.js" defer></script>
+    <script src="src/js/index.js"></script>
 
     <title>Johnson Portfolio</title>
 </head>
 
 <body>
-    <div class="sidebar">
+    <div class="sidebar">s
         <div class="sidebar-profile-pic-container">
             <img class="profile-pic" src="src/img/5583.jpg">
         </div>
@@ -44,7 +44,7 @@
 
     <div class="main-content">
 
-     
+
 
         <div class="intro-container">
             <div class="name-container">
@@ -167,7 +167,7 @@
 
         </div>
 
-        <div class="education-container">
+        <div class="education-container" id="education-container">
             <div class="title-container">
                 EDUCATION
             </div>
@@ -179,6 +179,9 @@
                     <div class="course-title-container">
                         <div class="course-title">
                             BACHELORS IN ELECTRONICS AND COMMUNICATION
+                        </div>
+                        <div class="toogle-icon-container">
+                            <img class="toogle-icon" onclick="toggleAdditionalInfo(this)"  src="src/img/icons8-minus-32.png">
                         </div>
                     </div>
 
@@ -194,11 +197,17 @@
                 </li>
 
                 <li class="education-content">
-                    <div class="course-title">
-                        PRE UNIVERSITY COLLEGE
+                    <div class="course-title-container">
+
+                        <div class="course-title">
+                            PRE UNIVERSITY COLLEGE
+                        </div>
+                        <div class="toogle-icon-container">
+                            <img class="toogle-icon" onclick="toggleAdditionalInfo(this)"  src="src/img/icons8-plus-24.svg">
+                        </div>
                     </div>
 
-                    <div class="additonal-info selected">
+                    <div class="additonal-info">
                         <div class="ed-items institution-name">
                             Institute Name: ST MARYS PU COLLEGE, KUNDAPURA
                         </div>
@@ -211,11 +220,19 @@
 
 
                 <li class="education-content">
-                    <div class="course-title">
-                        HIGH SCHOOL SECONDARY EDUCATION
+                    <div class="course-title-container">
+                        
+                        <div class="course-title">
+                            HIGH SCHOOL SECONDARY EDUCATION
+                        </div>
+
+                        <div class="toogle-icon-container">
+                            <img class="toogle-icon" onclick="toggleAdditionalInfo(this)"   src="src/img/icons8-plus-24.svg">
+                        </div>
+                        
                     </div>
 
-                    <div class="additonal-info selected">
+                    <div class="additonal-info">
                         <div class="ed-items institution-name">
                             Institute Name: DON BOSCO SCHOOL, TRASI
                             <div class="ed-items education-year">
@@ -236,8 +253,8 @@
             </div>
         </div>
 
-        
-        <div class="contact-container">
+
+        <div class="contact-container" id="contact-container">
             <div class="title-container">
                 CONTACT
             </div>
@@ -280,6 +297,8 @@
                             <a href="tel:+917899404714">
                                 +91 7899404714
                             </a>
+
+
                         </div>
                     </div>
 
@@ -287,7 +306,7 @@
 
                 <div class="contact-form-container">
 
-                    
+
                     <input onfocus="clearDefaultValue(this)" value="Name" class="form-input"></input>
                     <input onfocus="clearDefaultValue(this)" value="Email" class="form-input"></input>
                     <input onfocus="clearDefaultValue(this)" value="Subject" class="form-input"></input>
