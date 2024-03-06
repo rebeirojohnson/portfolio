@@ -19,15 +19,15 @@ function toggleAdditionalInfo(clickedElement) {
 
     // Toggle the image source based on the 'selected' class
     var toggleIcon = listItem.querySelector('.toogle-icon');
-    
+
     toggleIcon.src = (listItem.classList.contains('selected')) ? 'src/img/icons8-minus-32.png' : 'src/img/icons8-plus-24.svg';
 }
 
-document.addEventListener("DOMContentLoaded", function() {
-var yourElement = document.getElementById("education-container");
+// document.addEventListener("DOMContentLoaded", function() {
+// var yourElement = document.getElementById("education-container");
 
-// Scroll to the element with different behaviors
-yourElement.scrollIntoView({ behavior: "auto" });
-// Uncomment the line below to try "smooth" behavior
-// yourElement.scrollIntoView({ behavior: "smooth" });
-});
+// // Scroll to the element with different behaviors
+// yourElement.scrollIntoView({ behavior: "auto" });
+// // Uncomment the line below to try "smooth" behavior
+// // yourElement.scrollIntoView({ behavior: "smooth" });
+// });
