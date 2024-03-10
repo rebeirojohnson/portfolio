@@ -197,11 +197,13 @@ ul{
 
 .contact-icon-container{
     background-color: violet;
+    flex: 1;
     
 }
 
 .contact-form-container{
     background-color: springgreen;
+    flex: 1;
     display: flex;
     flex-direction: column;
 }
@@ -211,7 +213,7 @@ ul{
     border: 0px;
     padding: 25px 20px;
     margin: 10px;
-    font-size: 3ex;
+    font-size: 2.5ex;
     color: grey;
 }
 
@@ -232,17 +234,17 @@ ul{
 }
 
 .contact-item-icon-container{
-    width: 10%;
-    padding: 30px;
+    width: 5%;
+    padding: 20px;
     position: relative;
     background-color: #6d7ae1;
-    margin: 40px;
+    margin: 30px;
 
 }
 
 .contact-item-icon{
-    width: 40%;
-    margin: auto 30%;
+    width: 100%;
+    margin: auto;
 }
 
 .content-item-content,a{
@@ -251,8 +253,8 @@ ul{
     align-items: center;
     position: relative;
     top: 40%;
-    padding-left: 10px;
-    font-size: 3ex;
+    padding-left: 0px;
+    font-size: 2.5ex;
 }
 
 /* Skills */
@@ -337,6 +339,8 @@ ul{
     
     
     }
+
+
 
     .contact-item-icon-container{
         width: 7%;
